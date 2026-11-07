@@ -64,8 +64,8 @@ export default function Hero() {
             <span className="mt-1 h-2 w-2 shrink-0 rounded-full bg-emerald-400 sm:mt-0" />
             <span>
               {t(
-                "Disponível para vagas CLT/PJ, projetos freelance e parcerias acadêmicas",
-                "Open to full-time and contract roles, freelance projects and academic partnerships"
+                "Atualmente na AeC · não estou buscando novas vagas",
+                "Currently at AeC · not looking for new roles"
               )}
             </span>
           </div>

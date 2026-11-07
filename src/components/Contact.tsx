@@ -155,14 +155,14 @@ export default function Contact() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
               </span>
-              {t("Disponível para novas propostas", "Available for new opportunities")}
+              {t("Não estou buscando vagas no momento", "Not looking for new roles right now")}
             </div>
 
             <h1 className="section-title">{t("Vamos conversar sobre a próxima entrega.", "Let's talk about your next delivery.")}</h1>
             <p className="section-copy">
               {t(
-                "Estou disponível para oportunidades em desenvolvimento backend, engenharia de software, arquitetura de sistemas e projetos que unam tecnologia e inteligência de dados.",
-                "I'm available for opportunities in backend development, software engineering, systems architecture and projects that combine technology and data intelligence."
+                "No momento não estou buscando novas vagas, mas fico feliz em conversar sobre desenvolvimento de software, arquitetura de sistemas, pesquisa e parcerias acadêmicas.",
+                "I'm not looking for new roles right now, but I'm happy to talk about software development, systems architecture, research and academic partnerships."
               )}
             </p>
 

@@ -65,7 +65,7 @@ def desenhar_cabecalho(canvas, doc):
     canvas.setFillColor(colors.HexColor("#cbd5e1"))
     canvas.setFont("Helvetica", 8.5)
     canvas.drawString(MARGIN_H, y_topo - 2.25 * cm,
-                      "Belo Horizonte, MG - Brazil   |   Available for remote work")
+                      "Belo Horizonte, MG - Brazil")
 
     # ── Linha divisória interna ───────────────────────────────────────────────
     canvas.setStrokeColor(colors.HexColor("#2d4a6b"))

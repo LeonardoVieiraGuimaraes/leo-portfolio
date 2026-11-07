@@ -56,7 +56,7 @@ export default function About() {
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                 <p className="text-lg font-semibold">Leonardo Vieira Guimarães</p>
                 <p className="mt-1 text-sm text-slate-200">
-                  {t("Belo Horizonte, MG · Aberto a novos desafios e projetos", "Belo Horizonte, MG · Open to new challenges and projects")}
+                  {t("Belo Horizonte, MG · Desenvolvedor de Sistemas Sênior na AeC", "Belo Horizonte, MG · Senior Systems Developer at AeC")}
                 </p>
               </div>
             </div>
