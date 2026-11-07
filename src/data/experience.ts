@@ -13,6 +13,18 @@ export type ExperienceEntry = ExperienceText & {
 
 export const experiences: ExperienceEntry[] = [
   {
+    role: "Desenvolvedor de Sistemas Sênior",
+    company: "AeC",
+    period: "nov 2026 — atual",
+    highlights: ["Desenvolvimento e sustentação de sistemas corporativos, em regime 100% remoto."],
+    primary: true,
+    en: {
+      role: "Senior Systems Developer",
+      period: "Nov 2026 — present",
+      highlights: ["Develops and maintains enterprise systems, working fully remotely."],
+    },
+  },
+  {
     role: "Desenvolvedor Backend (GLS / TI)",
     company: "Instituto Mineiro de Agropecuária (IMA)",
     period: "jul 2026 — atual",
@@ -23,7 +35,6 @@ export const experiences: ExperienceEntry[] = [
       "Modelagem e administração de bancos de dados relacionais para suporte a relatórios gerenciais e controle operacional da instituição.",
       "Utilização de Docker e contêineres para padronizar e isolar ambientes de desenvolvimento, homologação e produção.",
     ],
-    primary: true,
     en: {
       role: "Backend Developer (GLS / IT)",
       period: "Jul 2026 — present",
@@ -225,13 +236,13 @@ type FeaturedRoleText = { role: string; company: string; summary: string };
 
 export const featuredExperienceRoles: (FeaturedRoleText & { en: Partial<FeaturedRoleText> })[] = [
   {
-    role: "Desenvolvedor Backend (GLS / TI)",
-    company: "Instituto Mineiro de Agropecuária (IMA) · jul 2026 — atual",
-    summary: "Desenvolvimento backend e Product Owner (PO) do sistema Sidagro, com APIs RESTful, automações e ambientes em Docker.",
+    role: "Desenvolvedor de Sistemas Sênior",
+    company: "AeC · nov 2026 — atual",
+    summary: "Desenvolvimento e sustentação de sistemas corporativos, em regime 100% remoto.",
     en: {
-      role: "Backend Developer (GLS / IT)",
-      company: "Instituto Mineiro de Agropecuária (IMA) · Jul 2026 — present",
-      summary: "Backend development and Product Owner (PO) of the Sidagro system, with RESTful APIs, automations and Docker environments.",
+      role: "Senior Systems Developer",
+      company: "AeC · Nov 2026 — present",
+      summary: "Develops and maintains enterprise systems, working fully remotely.",
     },
   },
   {

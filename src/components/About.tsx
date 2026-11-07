@@ -79,8 +79,8 @@ export default function About() {
               </p>
               <p>
                 {t(
-                  "No Instituto Mineiro de Agropecuária (IMA), atuo no desenvolvimento de software de microsserviços e soluções corporativas, na gestão de suporte técnico avançado e como Product Owner (PO) do sistema corporativo Sidagro, garantindo alinhamento técnico e regras de negócio de alta complexidade.",
-                  "At the Instituto Mineiro de Agropecuária (IMA), the agricultural defense agency of Minas Gerais, I develop microservices and enterprise solutions, manage advanced technical support and serve as Product Owner (PO) of the Sidagro enterprise system, ensuring technical alignment and highly complex business rules."
+                  "Atualmente sou Desenvolvedor de Sistemas Sênior na AeC, em regime 100% remoto, no desenvolvimento e sustentação de sistemas corporativos. Trago também experiência no setor público com microsserviços, integrações de pagamento e atuação como Product Owner (PO), alinhando técnica e regras de negócio complexas.",
+                  "I am currently a Senior Systems Developer at AeC, working fully remotely on the development and maintenance of enterprise systems. I also bring public-sector experience with microservices, payment integrations and work as a Product Owner (PO), aligning engineering with complex business rules."
                 )}
               </p>
               <p>

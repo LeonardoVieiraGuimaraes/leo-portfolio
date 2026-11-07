@@ -16,9 +16,9 @@ const proofPoints = [
     en: { value: "Full Stack Developer", label: "RESTful APIs, microservices and front-end" },
   },
   {
-    value: "Product Owner (PO)",
-    label: "Gestão do Sidagro e regras de negócio",
-    en: { label: "Sidagro management and business rules" },
+    value: "Sênior na AeC",
+    label: "Sistemas corporativos, 100% remoto",
+    en: { value: "Senior at AeC", label: "Enterprise systems, fully remote" },
   },
   {
     value: "Arquitetura ao Deploy",
@@ -72,8 +72,8 @@ export default function Hero() {
 
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.22em] text-sky-300 [.light_&]:text-sky-700">
             {t(
-              "Desenvolvedor Full Stack · Product Owner · Professor de TI & Pesquisador",
-              "Full Stack Developer · Product Owner · IT Professor & Researcher"
+              "Desenvolvedor de Sistemas Sênior · Full Stack · Professor de TI & Pesquisador",
+              "Senior Systems Developer · Full Stack · IT Professor & Researcher"
             )}
           </p>
           <h1 className="max-w-4xl text-4xl font-semibold leading-[1.08] text-white sm:text-5xl lg:text-6xl [.light_&]:text-slate-950">
@@ -84,8 +84,8 @@ export default function Hero() {
           </h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300 [.light_&]:text-slate-600">
             {t(
-              "Desenvolvedor full stack focado em desenvolvimento web, microsserviços e automações no IMA, atuando também na gestão de suporte técnico e como Product Owner (PO) do sistema Sidagro. Atendo também projetos freelance/PJ desde 2014 e sou professor universitário de TI e doutorando em Modelagem Matemática e Computacional no CEFET/MG, integrando entrega técnica de software, prática de mercado e rigor analítico.",
-              "Full stack developer focused on web development, microservices and automation at IMA, the agricultural defense agency of Minas Gerais, where I also manage technical support and serve as Product Owner (PO) of the Sidagro system. I have taken on freelance and contract projects since 2014, and I am a university IT professor and Ph.D. candidate in Mathematical and Computational Modeling at CEFET/MG, bringing together software delivery, industry practice and analytical rigor."
+              "Desenvolvedor de Sistemas Sênior na AeC, em regime 100% remoto, com foco em desenvolvimento web, APIs e microsserviços. Atendo também projetos freelance/PJ desde 2014 e sou professor universitário de TI e doutorando em Modelagem Matemática e Computacional no CEFET/MG, integrando entrega técnica de software, prática de mercado e rigor analítico.",
+              "Senior Systems Developer at AeC, working fully remotely, focused on web development, APIs and microservices. I have taken on freelance and contract projects since 2014, and I am a university IT professor and Ph.D. candidate in Mathematical and Computational Modeling at CEFET/MG, bringing together software delivery, industry practice and analytical rigor."
             )}
           </p>
 

@@ -59,7 +59,7 @@ def desenhar_cabecalho(canvas, doc):
     canvas.setFillColor(colors.HexColor("#93c5fd"))
     canvas.setFont("Helvetica", 10)
     canvas.drawString(MARGIN_H, y_topo - 1.65 * cm,
-                      "Desenvolvedor Full Stack  ·  Product Owner  ·  Professor de TI & Pesquisador")
+                      "Desenvolvedor de Sistemas Sênior  ·  Full Stack  ·  Professor de TI & Pesquisador")
 
     # ── Localização ───────────────────────────────────────────────────────────
     canvas.setFillColor(colors.HexColor("#cbd5e1"))
@@ -202,10 +202,11 @@ story = []
 # ── RESUMO ─────────────────────────────────────────────────────────────────────
 story += secao("Resumo Profissional")
 story.append(Paragraph(
-    "Desenvolvedor Full Stack, Product Owner (PO) e Professor de TI com sólida experiência em "
+    "Desenvolvedor Full Stack e Professor de TI com sólida experiência em "
     "engenharia de software, desenvolvimento web, arquitetura de APIs RESTful, microsserviços e bancos de dados. "
-    "Atua no Instituto Mineiro de Agropecuária (IMA) no desenvolvimento de sistemas corporativos, gestão de suporte "
-    "técnico e como Product Owner (PO) do sistema Sidagro. Possui trajetória como professor universitário e tutor "
+    "Atualmente é Desenvolvedor de Sistemas Sênior na AeC, em regime 100% remoto, no desenvolvimento e sustentação "
+    "de sistemas corporativos, com experiência também no setor público em microsserviços, integrações de pagamento "
+    "e atuação como Product Owner (PO). Possui trajetória como professor universitário e tutor "
     "em TI, além de atuação na pesquisa científica como Doutorando em Modelagem Matemática e Computacional (CEFET/MG) "
     "e Mestre (UNIMONTES), agregando forte capacidade analítica, visão de produto e rigor técnico.",
     st_resumo
@@ -245,6 +246,14 @@ story.append(Paragraph(
 story += secao("Experiência Profissional")
 
 experiencias = [
+    {
+        "cargo":   "Desenvolvedor de Sistemas Sênior",
+        "empresa": "AeC",
+        "periodo": "nov 2026 - atual",
+        "itens": [
+            "Desenvolvimento e sustentação de sistemas corporativos, em regime 100% remoto.",
+        ]
+    },
     {
         "cargo":   "Desenvolvedor Backend & Product Owner (PO) - GLS/TI",
         "empresa": "Instituto Mineiro de Agropecuária (IMA)",

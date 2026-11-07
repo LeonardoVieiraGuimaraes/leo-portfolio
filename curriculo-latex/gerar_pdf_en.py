@@ -59,7 +59,7 @@ def desenhar_cabecalho(canvas, doc):
     canvas.setFillColor(colors.HexColor("#93c5fd"))
     canvas.setFont("Helvetica", 10)
     canvas.drawString(MARGIN_H, y_topo - 1.65 * cm,
-                      "Full Stack Developer  ·  Product Owner  ·  IT Professor & Researcher")
+                      "Senior Systems Developer  ·  Full Stack  ·  IT Professor & Researcher")
 
     # ── Localização ───────────────────────────────────────────────────────────
     canvas.setFillColor(colors.HexColor("#cbd5e1"))
@@ -204,11 +204,11 @@ story = []
 # ── RESUMO ─────────────────────────────────────────────────────────────────────
 story += secao("Professional Summary")
 story.append(Paragraph(
-    "Full Stack Developer, Product Owner (PO) and IT Professor with solid experience in "
+    "Full Stack Developer and IT Professor with solid experience in "
     "software engineering, web development, RESTful API architecture, microservices and databases. "
-    "Works at the Instituto Mineiro de Agropecuária (IMA), the agricultural defense agency of the State of "
-    "Minas Gerais, developing enterprise systems, managing technical support and serving as Product Owner (PO) "
-    "of the Sidagro system. Background as a university professor and IT tutor, and active in scientific research "
+    "Currently a Senior Systems Developer at AeC, working fully remotely on the development and maintenance of "
+    "enterprise systems, with public-sector experience in microservices, payment integrations and work as a "
+    "Product Owner (PO). Background as a university professor and IT tutor, and active in scientific research "
     "as a Ph.D. candidate in Mathematical and Computational Modeling (CEFET/MG) with an M.Sc. from UNIMONTES, "
     "bringing strong analytical skills, product vision and technical rigor.",
     st_resumo
@@ -248,6 +248,14 @@ story.append(Paragraph(
 story += secao("Professional Experience")
 
 experiencias = [
+    {
+        "cargo":   "Senior Systems Developer",
+        "empresa": "AeC",
+        "periodo": "Nov 2026 - present",
+        "itens": [
+            "Develops and maintains enterprise systems, working fully remotely.",
+        ]
+    },
     {
         "cargo":   "Backend Developer & Product Owner (PO) - GLS/IT",
         "empresa": "Instituto Mineiro de Agropecuária (IMA)",
