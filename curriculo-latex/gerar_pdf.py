@@ -257,7 +257,7 @@ experiencias = [
     {
         "cargo":   "Desenvolvedor Backend & Product Owner (PO) - GLS/TI",
         "empresa": "Instituto Mineiro de Agropecuária (IMA)",
-        "periodo": "jul 2026 - atual",
+        "periodo": "jul 2026",
         "itens": [
             "Gestão do suporte técnico e atuação como PO do sistema Sidagro (homologado para Firefox).",
             "Desenvolvimento de APIs RESTful, automações internas e evolução contínua do backend.",

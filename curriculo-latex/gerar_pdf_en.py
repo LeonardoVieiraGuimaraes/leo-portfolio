@@ -259,7 +259,7 @@ experiencias = [
     {
         "cargo":   "Backend Developer & Product Owner (PO) - GLS/IT",
         "empresa": "Instituto Mineiro de Agropecuária (IMA)",
-        "periodo": "Jul 2026 - present",
+        "periodo": "Jul 2026",
         "itens": [
             "Technical support management and Product Owner of the Sidagro system (validated for Firefox).",
             "Development of RESTful APIs, internal automations and continuous evolution of the backend.",

@@ -27,7 +27,7 @@ export const experiences: ExperienceEntry[] = [
   {
     role: "Desenvolvedor Backend (GLS / TI)",
     company: "Instituto Mineiro de Agropecuária (IMA)",
-    period: "jul 2026 — atual",
+    period: "jul 2026",
     highlights: [
       "Liderança na gestão de suporte técnico do sistema Sidagro e atuação como Product Owner (PO), sendo responsável pela análise de regras de negócio complexas e alinhamento de requisitos.",
       "Atuação direta como desenvolvedor backend na Gerência de Logística e Serviços Gerais (GLS / TI), com foco em desenvolvimento web, evolução e sustentação contínua do sistema Sidagro (homologado para Firefox).",
@@ -37,7 +37,7 @@ export const experiences: ExperienceEntry[] = [
     ],
     en: {
       role: "Backend Developer (GLS / IT)",
-      period: "Jul 2026 — present",
+      period: "Jul 2026",
       highlights: [
         "Leads technical support management for the Sidagro system and serves as its Product Owner (PO), analyzing complex business rules and aligning requirements.",
         "Works as a backend developer in the Logistics and General Services Department (GLS / IT), focused on web development and the continuous evolution and maintenance of the Sidagro system (validated for Firefox).",
