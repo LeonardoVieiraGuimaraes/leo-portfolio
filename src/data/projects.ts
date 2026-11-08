@@ -68,6 +68,23 @@ export const projects: Project[] = [
     },
   },
   {
+    title: "28 °C é quente? Lógica fuzzy",
+    context: "Material didático interativo",
+    description:
+      "Apresentação interativa (Next.js/React) de um controlador fuzzy de ventilador em 7 etapas: lógica clássica, graus de pertinência, fuzzificação, regras, agregação, defuzzificação pelo centroide e comparação com o controle clássico. Tem play, navegação por etapas e controle de temperatura.",
+    outcome: "Feito para aulas e redes sociais: explica lógica fuzzy de forma visual, com todos os cálculos rodando ao vivo no navegador.",
+    image: "/images/projects/developer/logica-fuzzy.png",
+    link: "https://projetos-doutorado.leoproti.com.br/logica-fuzzy",
+    tags: ["Lógica Fuzzy", "JavaScript", "Canvas", "Didática"],
+    en: {
+      title: "Is 28 °C hot? Fuzzy logic",
+      context: "Interactive teaching material",
+      description: "Interactive walkthrough of a fuzzy fan controller in 7 steps: classical logic, membership degrees, fuzzification, rules, aggregation, centroid defuzzification and a comparison with classical control. Includes play, step navigation and a temperature control. Content in Portuguese.",
+      outcome: "Built for classes and social media: explains fuzzy logic visually, with every calculation running live in the browser.",
+      tags: ["Fuzzy Logic", "JavaScript", "Canvas", "Teaching"],
+    },
+  },
+  {
     title: "Plataforma DAE/PIX v2",
     context: "Sistema corporativo",
     description:
@@ -119,17 +136,17 @@ export const projects: Project[] = [
     title: "Hub de Projetos do Doutorado",
     context: "Pesquisa aplicada",
     description:
-      "Ambiente full stack para experimentos científicos com autômatos celulares, random walk, lógica fuzzy e grafos de GTA.",
-    outcome: "Frontend Next.js e API FastAPI publicados separadamente, com documentação interativa em containers.",
+      "Ambiente full stack para experimentos científicos com autômatos celulares, random walk, lógica fuzzy, grafos de GTA e um motor antifraude.",
+    outcome: "Frontend Next.js e API Django (Ninja + DRF) em containers, com documentação interativa e acesso aberto.",
     image: "/images/projects/academics/doutoradoMineracaoDadosProjeto.png",
     link: "https://projetos-doutorado.leoproti.com.br/",
     github: "https://github.com/LeonardoVieiraGuimaraes/DoutoradoCefet/tree/main/hospedagem/projetos_doutorado",
-    tags: ["FastAPI", "Next.js", "Docker"],
+    tags: ["Django", "Next.js", "Docker"],
     en: {
       title: "Ph.D. Projects Hub",
       context: "Applied research",
-      description: "Full stack environment for scientific experiments with cellular automata, random walks, fuzzy logic and animal transit permit (GTA) graphs.",
-      outcome: "Next.js frontend and FastAPI API published separately, with interactive documentation in containers.",
+      description: "Full stack environment for scientific experiments with cellular automata, random walks, fuzzy logic, animal transit permit (GTA) graphs and a fraud detection engine.",
+      outcome: "Next.js frontend and a Django API (Ninja + DRF) in containers, with interactive documentation and open access.",
     },
   },
   {

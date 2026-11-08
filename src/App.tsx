@@ -14,6 +14,7 @@ import Experience from "./components/Experience";
 import ExperienceFeatured from "./components/ExperienceFeatured";
 import About from "./components/About";
 import AboutSimple from "./components/AboutSimple";
+import Doctorate from "./components/Doctorate";
 import { ThemeProvider } from "./context/ThemeContext";
 import { LanguageProvider } from "./context/LanguageContext";
 
@@ -81,6 +82,7 @@ function App() {
               <Route path="/inicio" element={<HomePage />} />
               <Route path="/sobre" element={<About />} />
               <Route path="/projects" element={<ProjectsPage />} />
+              <Route path="/doutorado" element={<Doctorate />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/contact" element={<Contact />} />

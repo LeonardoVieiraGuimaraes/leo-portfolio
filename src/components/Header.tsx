@@ -12,6 +12,7 @@ export default function Header() {
 
   const navLinks = [
     { name: t("Projetos", "Projects"), to: "/projects" },
+    { name: t("Doutorado", "Ph.D."), to: "/doutorado" },
     { name: t("Competências", "Skills"), to: "/skills" },
     { name: t("Experiência", "Experience"), to: "/experience" },
     { name: t("Sobre", "About"), to: "/sobre" },
@@ -56,7 +57,7 @@ export default function Header() {
           </span>
         </NavLink>
 
-        <div className="hidden items-center gap-1 md:flex">
+        <div className="hidden items-center gap-1 lg:flex">
           {navLinks.map((link) => (
             <NavLink key={link.to} to={link.to} className={({ isActive }) => navItemClass(isActive)}>
               {link.name}
@@ -73,7 +74,7 @@ export default function Header() {
           <div className="ml-2">{languageButton}</div>
         </div>
 
-        <div className="ml-3 flex shrink-0 items-center gap-2 md:hidden">
+        <div className="ml-3 flex shrink-0 items-center gap-2 lg:hidden">
           {languageButton}
           <button
             onClick={toggleTheme}
@@ -96,7 +97,7 @@ export default function Header() {
       </nav>
 
       {isOpen && (
-        <div id="mobile-menu" className="border-t border-white/5 px-4 py-4 md:hidden [.light_&]:border-slate-200">
+        <div id="mobile-menu" className="border-t border-white/5 px-4 py-4 lg:hidden [.light_&]:border-slate-200">
           <div className="mx-auto flex max-w-7xl flex-col gap-1">
             {navLinks.map((link) => (
               <NavLink
